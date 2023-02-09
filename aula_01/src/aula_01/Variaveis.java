@@ -4,11 +4,14 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Variaveis {
-
+	
+	
+	static Scanner leia = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 
 		DecimalFormat df = new DecimalFormat("###.##");
-		Scanner leia = new Scanner(System.in);
+		
 		
 		
 		int numero;

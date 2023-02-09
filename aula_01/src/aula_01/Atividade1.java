@@ -3,11 +3,10 @@ package aula_01;
 import java.util.Scanner;
 
 public class Atividade1 {
+	
+	static Scanner leia = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		
-		
-		Scanner leia = new Scanner(System.in);
 		
 		
 		float salario, abono, novoSalario;

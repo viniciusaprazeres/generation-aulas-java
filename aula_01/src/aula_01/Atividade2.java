@@ -3,11 +3,10 @@ package aula_01;
 import java.util.Scanner;
 
 public class Atividade2 {
+	
+	static Scanner leia = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		
-		
-		Scanner leia = new Scanner(System.in);
 		
 		
 		float nota1, nota2, nota3, nota4, media;
